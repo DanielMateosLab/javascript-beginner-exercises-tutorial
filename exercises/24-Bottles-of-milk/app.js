@@ -1,6 +1,6 @@
 // Your code here:
-for (let i = 99; i == 0; i--) {
-    console.log(getFirstVerse(1) + getSecondVerse(i))
+for (let i = 99; i >= 0; i--) {
+    console.log(getFirstVerse(i) + getSecondVerse(i))
 }
 
 function getFirstVerse(counter) {
